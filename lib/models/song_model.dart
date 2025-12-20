@@ -3,5 +3,9 @@ class Song {
   final String title;
   final String audioUrl;
 
-  Song(this.artist, this.title, this.audioUrl);
+  Song({
+    required this.artist,
+    required this.title,
+    required this.audioUrl,
+  });
 }
